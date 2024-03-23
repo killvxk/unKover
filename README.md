@@ -25,7 +25,7 @@ So far its quite trivial to bypass these, especially given the implementations :
 
 You need to enable testsigning to load the driver. I also recommend to enable debugging for the kernel.
 
-Run the following from an administrative prompt and reboot afterwards:
+Download the driver from releases, run the following from an administrative prompt and reboot afterwards:
 
 ```cmd
 bcdedit /set testsigning on
